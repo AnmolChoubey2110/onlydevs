@@ -1,0 +1,27 @@
+.home {
+  flex: 3;
+}
+.homeBox {
+  margin: 15px;
+  padding: 10px;
+}
+.homeWidgets {
+  display: flex;
+  margin: 20px;
+}
+.courseSub {
+  font-size: 18px;
+  color: rgba(187, 187, 187, 1);
+}
+.homeInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.viewMore {
+  border: none;
+  background-color: white;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(0, 144, 249, 1);
+  cursor: pointer;
+}
