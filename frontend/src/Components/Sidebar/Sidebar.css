@@ -1,0 +1,83 @@
+.sidebar {
+  flex: 1;
+  height: calc(90vh - 50px);
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  top: 80px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  border-radius: 32px;
+  box-shadow: 0px 30px 30px -20px rgba(0, 0, 0, 0.25);
+}
+
+.sidebarWrapper {
+  padding: 20px;
+  color: #555;
+}
+
+.sidebarMenu {
+  margin-bottom: 10px;
+
+}
+.sidebarTitle {
+  font-size: 13px;
+  color: rgb(197, 197, 197);
+}
+.sidebarList {
+  list-style: none;
+  padding: 5px;
+display: flex;
+flex-direction: column;
+}
+
+.sidebarListItem {
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.sidebarListItem.active,
+.sidebarListItem:hover {
+  background-color: rgb(250, 232, 217);
+}
+.sidebarIcon {
+  margin-right: 5px;
+  font-size: 20px !important;
+}
+
+.profileSidebar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.logoSidebar {
+  margin-top: 10px;
+  width: 200px;
+  height: 45px;
+}
+.infoSidebar{
+  font-size: 12px;
+  margin-top: 20px;
+  color: lightgrey;
+  align-self: center;
+}
+.buttonSidebar {  
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 5px 10px;
+  width: 160px;
+  height: 40px;
+  background-color: #e95f13;
+  color: white;
+  cursor: pointer;
+  margin-right: 20px;
+  font-size: 17px;
+  font-weight: 500;   
+}

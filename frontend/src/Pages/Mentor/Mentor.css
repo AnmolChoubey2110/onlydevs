@@ -1,0 +1,104 @@
+.mentor {
+    flex: 4;
+    padding: 20px;
+  }
+  
+  .mentorTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .mentorAddButton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .mentorContainer {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .mentorShow {
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  .mentorUpdate {
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin-left: 20px;
+  }
+  
+  .mentorShowTop {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mentorShowImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .mentorShowTopTitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  
+  .mentorShowmentorname {
+    font-weight: 600;
+  }
+  
+  .mentorShowmentorTitle {
+    font-weight: 300;
+  }
+  
+  .mentorShowBottom {
+    margin-top: 20px;
+  }
+  .mentorShowTitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: lightgray;
+  }
+  .mentorShowInfo {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+  }
+  .mentorShowIcon {
+    font-size: 16px !important;
+  }
+  
+  .mentorShowInfoTitle {
+    margin-left: 10px;
+  }
+  
+  .mentorUpdate{
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .mentorUpdateTitle {
+    font-size: 26px;
+    font-weight: 600;
+  }
+  .mentorDescription{
+    font-size: 18px;
+    font-weight: 375;
+    padding: 15px;
+    text-align: justify;
+}

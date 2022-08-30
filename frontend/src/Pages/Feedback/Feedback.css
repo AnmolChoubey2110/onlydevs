@@ -1,0 +1,60 @@
+.feedback {
+  flex: 4;
+  padding: 20px;
+}
+
+.feedbackFormContainer {
+  /* -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75); */
+  padding: 50px;
+  display: flex;
+  
+}
+.feedbackForm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: auto;
+}
+
+.textField .MuiOutlinedInput-root{
+    width: 500px !important;
+    border: 10px !important;
+    border-radius: 20px !important;
+}
+
+.textContainer .MuiOutlinedInput-root{
+    width: 500px !important;
+    height: 100px !important;
+    border: 10px !important;
+    border-radius: 20px !important;
+}
+
+.feedbackimage{
+    width: 350px;
+    height: 350px;
+    margin-left: -31vh;
+    margin-top: -2vh;
+}
+
+.sectionFeedback{
+    display: flex;    
+    justify-content: space-between;
+}
+
+.buttonfeedback {  
+    margin-top: 50px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 30vh;
+    padding: 5px 10px;
+    width: 160px;
+    height: 40px;
+    background-color: #e95f13;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;  
+     
+  }
+  
