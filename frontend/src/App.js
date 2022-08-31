@@ -10,6 +10,7 @@ import User from "./Pages/User/User";
 import Mentor from "./Pages/Mentor/Mentor";
 import Feedback from "./Pages/Feedback/Feedback";
 import Login from "./login/Login";
+import Register from "./register/MultiStep";
 // Router
 import { BrowserRouter as Router } from "react-router-dom";
 import { Routes, Route, Navigate } from "react-router-dom";
@@ -29,17 +30,18 @@ function App() {
         
             <Routes>
             <Route path="/login"element={ <Login /> } />
+            <Route path="/register"element={ <Register /> } />
             </Routes>
-            <Topbar />
-          <div className="container">
-            <Sidebar />
+            {/* <Topbar /> */}
+          
+            {/* <Sidebar /> */}
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/user" element={<User />} />
               <Route path="/mentor" element={<Mentor />} />
               <Route path="/feedback" element={<Feedback />} />
             </Routes>
-          </div>
+         
         </Router>
       
     </>

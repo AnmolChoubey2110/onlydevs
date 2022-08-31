@@ -1,9 +1,10 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
 .login {
-  width: 1598px;
-  height:  107.65vh;
-  margin-top: -70px;
-  margin-left: -70px;
-  margin-bottom: -70px;
+  width: 100%;
+  height:  100vh;
 
   background: linear-gradient(
       to bottom,
@@ -11,35 +12,42 @@
       rgba(0, 0, 0, 1) 100%
     ),
     url("mujweb1.png");
-  background-position: center;
+
   background-repeat: no-repeat;
-  background-size: cover;
+background-size: cover;
 
   .container {
-    height: 100%;
-    position: absolute; 
+    position: relative;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
     text-align: center;
     justify-content: center;
     color: rgb(0, 0, 0);
-    margin-left: 100px;
+    right: 10%;
     form {
+      position: absolute;
+      right:3%;
       width: 300px;
       height: 300px;
-      padding: 30px;  
-      border-radius: 20px;
+      padding: 20px;  
+      border-radius: 15px;
       background-color: rgb(255, 255, 255);
-      display: flex;
+      display: flex;  
       flex-direction: column;
       justify-content: space-around;
+      h1{
+        font-size: 25px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        margin-bottom: 10px;
+      }
       input {
         height: 40px;
         border-radius: 5px;
         background-color: rgb(255, 255, 255);
         color: rgb(1, 1, 1);
         padding-left: 10px;
+        border: 1px solid rgb(1, 1, 1);
 
         &::placeholder {
           color: rgb(10, 10, 10);
@@ -63,10 +71,14 @@
         cursor: pointer;
       }
 
-      span {
+      a {
         color: lightgray;
         b {
-          color: white;
+          font-size: 14px;
+          color: #e11d48;
+          opacity: 50%;
+        }:hover{
+          opacity: 80%;
         }
       }
     }

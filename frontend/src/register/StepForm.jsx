@@ -66,6 +66,7 @@ function getStepContent(step) {
               fullWidth
               margin="normal"
               name="firstName"
+              required = "true"
               
             />
             <TextField
@@ -200,6 +201,9 @@ function getStepContent(step) {
           />
         </>
       );
+    default:
+      return "Unknown step";
+
   }
 }
 
