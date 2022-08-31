@@ -1,6 +1,6 @@
 import React from "react";
-import "./MultiStep.scss";
 import StepForm from "./StepForm";
+import "./MultiStep.scss";
 import { CssBaseline, Container, Paper, Box } from "@mui/material";
 
 function MultiStep() {

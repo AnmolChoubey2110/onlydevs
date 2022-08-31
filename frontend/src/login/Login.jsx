@@ -24,7 +24,7 @@ const Login = () => {
           {/* <form action="" onSubmit={submitForm}> */}
           <form action="" >
 
-            <h1 className="new">Sign In</h1>
+            <h1>Login</h1>
             <input
               type="email"
               id="email"
@@ -44,11 +44,11 @@ const Login = () => {
               //   setPassword(event.target.value);
               // }}
             />
-            <button className="loginButton">Sign-In</button>
+            <button className="loginButton">submit</button>
         
-            <span>
-              <b>Sign up now.</b>
-            </span>
+            <a href="/register">
+              <b>Dont have an account? Sign up now!</b>
+            </a>
             <small>
               This page is protected by Google reCAPTCHA to ensure you're not a
               bot. <b>Learn more</b>.
